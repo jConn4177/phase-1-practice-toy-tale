@@ -1,8 +1,12 @@
+const url = "https://localhost:3000";
 let addToy = false;
 
+//* HTML selectors
+const addBtn = document.querySelector("#new-toy-btn");
+const toyFormContainer = document.querySelector(".container");
+
+//* makes #new-toy-btn function to hide/unhide NewToyForm
 document.addEventListener("DOMContentLoaded", () => {
-  const addBtn = document.querySelector("#new-toy-btn");
-  const toyFormContainer = document.querySelector(".container");
   addBtn.addEventListener("click", () => {
     // hide & seek with the form
     addToy = !addToy;
@@ -13,3 +17,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+//TODO Access list of toys using fetch GET
+
+getJSON(url + "/toys").then((toys) => {
+  toys.forEach(renderCards);
+});
+
+//TODO Render data onto a "card"
+const renderCards = () => {};
