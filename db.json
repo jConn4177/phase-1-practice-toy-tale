@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Woody",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 5
+      "likes": 7
     },
     {
       "id": 2,
@@ -27,7 +27,7 @@
     {
       "id": 5,
       "name": "Rex",
-      "image": "https://static.wikia.nocookie.net/disney/images/5/56/Profile_-_Rex.jpeg/revision/latest?cb=20190313050619",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3cnjl6ugSPjqU2Vi9tcnWbVdoIe_XPHuUEEbzCMFkYA&s",
       "likes": 1
     },
     {
@@ -47,6 +47,12 @@
       "name": "Little Green Men",
       "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
       "likes": 1
+    },
+    {
+      "id": "9",
+      "name": "Teddy",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlBxgpsq-6wz-ClmeyFQKUUKeEdtauy4rFQ1TwyQE&s",
+      "likes": 0
     }
   ]
 }
